@@ -1,6 +1,4 @@
 from PIL import ImageDraw, ImageFont
-from cgitb import text
-from tkinter import font 
 import math
 
 def break_line(words_in_row, row):
