@@ -21,7 +21,6 @@ def find_word_count_in_row(text, text_size, x_area):
 def size(row_dict, text_size):
     
     font = ImageFont.truetype("Arial Unicode.ttf", text_size)
-    print(font)
 
     get_font_size = font.getsize(text=row_dict.get('translated'))
 
