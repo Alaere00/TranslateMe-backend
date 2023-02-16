@@ -2,7 +2,6 @@
 
 TranslateMe-backend is the part of an IOS application that translates manga in place.
 
-![alt text](https://github.com/Alaere00/TranslateMe-backend/tree/main/test_images/060.jpg)
 
 # Description
 
@@ -12,21 +11,27 @@ The backend uses Google Cloud Vision API to locate text on manga images and stor
 TranslateMe-Backend relies on:
 
 Pillow library
-Google Cloud Vision Api
-Google Translate Api 
+
 Google Firebase 
 * Firestore Database
 * Storage
 
+
+Google Cloud Vision Api
+
+Google Translate API
 
 
 # Getting Started
 
 # Google Cloud Vision API
 
-Users will need to create a google cloud account and create 
+To use the Google Cloud vision API, you need to create a service account. Steps for this can be found in the Cloud Vision API documentation guides. Next, you will create a service account key that is a JSON file. The JSON file will be loaded in the root directory. You will also need to install Google Cloud into the python environment to use the API.
+
 
 # Google Translate API
+
+You need to set up a project and enable the Cloud Translation API. They will ask for billing information, though Google provides a $300 credit to use the API. Next, you need to create a service account and download the service key. Once downloaded, place the JSON file at the root directory and set the environment variable to the file path. 
 
 # Google Firebase
 
