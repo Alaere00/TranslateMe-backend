@@ -1,6 +1,5 @@
 import os
 import io
-import six
 from google.cloud import vision
 from google.cloud.vision_v1 import types
 from google.cloud import translate_v2 as translate
@@ -110,4 +109,4 @@ def processed_image(path, language):
     img.save('new_result.png', 'png')
 
 
-# print(processed_image("test_images/060.jpg", "English"))
+# print(processed_image("test_images/060.jpg", "Chinese"))
